@@ -6,7 +6,9 @@ The main advantage of using this lib:
 - you do not have to unload kernel modules (rtl2832).
 - Other Hardware (other than rtl2832) may also work,
   if a suiting Kernel-Module is provided 
-The disadvantage:
+
+
+# The disadvantage:
 - some functions are dummies - especially the setting of gains,
   which are not supported by the kernel-module yet (at least
   for my dongle with FC0013 tuner).
